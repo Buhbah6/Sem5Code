@@ -1,0 +1,90 @@
+/* SELECTING ALL THE APPRORIATE WIDGETS */
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.light-bulb {
+ float: right;
+	width: 724px; 
+ height: 418.9px;
+}
+
+.light-bulb img {
+	position: relative;
+	display: inline-block;
+	width: 420px; 
+ height: 320px;
+	object-fit: contain;
+}
+
+.fan {
+	margin: 0;
+	padding: 0;
+	width: 724px; 
+ 	height: 32.5rem;
+	position: absolute;
+}
+
+.fan img {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	width: 720px; 
+ 	height: 32rem;
+	object-fit: fill;
+	display: inline-block;
+}
+
+#Red, #Green, #Blue, #Yellow, #Magenta, #Cyan, #White {
+		display: block;
+		font-size: 20px;
+		min-width: 150px;
+		height: 100px;
+		float: right;
+		background-color: white;
+  color: black;
+  border: 1px solid LightGray;
+  font-family: Times;
+  margin-left: 45px;
+		margin-bottom: 20px;
+  margin-right: 100px;
+}
+
+#Red {
+	background-color: red;
+}
+
+#Green {
+	background-color: green;
+}
+
+#Blue {
+	background-color: Blue;
+}
+
+#Yellow {
+	background-color: yellow;
+}
+
+#Magenta {
+	background-color: magenta;
+}
+
+#Cyan {
+	background-color: Cyan;
+}
+
+#White {
+	background-color: White;
+}
+
+.coloredButtons:hover,
+.coloredButtons:focus {
+  background-color: #F082AC;
+}
+
+.eYbLCt {
+	margin-top: 100px
+}
